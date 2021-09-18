@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Quicksand:wght@700&display=swap');
+@import url('https://allfont.ru/allfont.css?fonts=supreme');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/*left side of header and menu*/
+.menu__list li {
+    list-style-type: none;
+    margin: 10px 20px 25px 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C7C7C7;
+}
+.first_header__and__menu {
+    display: flex;
+}
+.menu__list img {
+    margin-right: 20px;
+}
+.cloud {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.7475px;
+    line-height: 21px;
+    color: #0F4264;
+}
+.menu__list li:first-child {
+    width: 165px;
+    height: 39px;
+    background: #F0F7FF;
+    border-radius: 4px;
+}
+.first_header {
+    margin: 50px 0px 90px 45px;
+}
+.upgrade_premium_part {
+    height: 108px;
+    width: 95px;
+    text-align: center;
+}
+.upgrade_premium_part img, .upgrade__sub-title{
+    position: relative;
+    top: 225px;
+    left: 79px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.7511px;
+    line-height: 11px;
+    color: #404040;
+}
+
+.first_header__and__menu {
+    height: 903px;
+}
+.premium-text {
+    position: relative;
+    top: 237px;
+    left: 48px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.1442px;
+    line-height: 14px;
+    color: #404040;
+    width: 163.21px;
+    height: 41.03px;
+    background: #FFC145;
+    border-radius: 13.617px;
+    text-align: center;
+    text-transform: 4;
+    line-height: 3.5em;
+}
+
+/*vertical_line*/
+
+.vertical_line {
+    position: relative;
+    width: 1px;
+    height: 903px;
+    left: 20px;
+    background: #F8F8F8;;
+}
+
+/*second_header*/
+
+.second_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.second__right-header {
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 43px;
+}
+
+.main_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.3726px;
+    line-height: 53px;
+    color: #404040;
+    margin: 33px 0px 0px 45px;
+}
+
+.sub_title {
+    margin: 0px 0px 0px 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0564px;
+    line-height: 20px;
+    color: #AEAEAE;
+}
+
+.header__icons img {
+    margin: 0px 10px 0px 10px;
+}
+.header__person_border {
+    border: 1px solid #FFC145;;
+    border-radius: 50px;
+    background: #FFC145;;
+}
+.Andrew {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+.admin {
+    margin: 0px;
+}
+
+/*cards*/
+
+.Cards, .Transaction_history, .goal__block, .New_transaction {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+}
+.cards__container {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1118px;
+    line-height: 25px;
+    color: #404040;
+}
+.cards__left_direct {
+    position: relative;
+    bottom: 135px;
+    left: 20px;
+}
+.cards__right_direct{
+    position: relative;
+    bottom: 135px;
+    right: 20px;
+}
+
+.cards__limit {
+    display: flex;
+    justify-content: space-around;
+}
+.bold_line_2colors {
+    display: flex;
+    margin-left: 42px;
+}
+.line__gray {
+    background: gray;
+    width: 251.43px;
+    height: 9.47px;
+    background: #F1F1F1;
+    border-radius: 13.617px;
+}
+.line__blue {
+    background: red;
+    width: 69.25px;
+    height: 9.06px;
+    background: #197BBD;
+    border-radius: 10.7766px;
+}
+
+.cards__vertical_line {
+    width: 1px;
+    height: 199.86px;
+    background: #E8E8E8;
+}
+.report {
+    text-align: end;
+    position: relative;
+    bottom: 0px;
+}
+.report > div{
+    margin: 10px 28px 13px 0px;
+}
+
+.cards__current_bill {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.5503px;
+    line-height: 38px;
+    color: #197BBD;
+}
+
+
+.cards__outcome_bill {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #BB4430;
+}
+span.cards__income_bill {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #439A86;
+}
+
+.report__sub_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+.report__switch_line {
+    display: flex;
+    position: relative;
+    left: 70px;
+}
+.line__dark_gray {
+    width: 23.45px;
+    background: #CDCDCD;
+    position: relative;
+    left: 23px;
+}
+.line__light_gray {
+    width: 45.69px;
+    background: #EBEBEB;
+}
+.line__light_gray, .line__dark_gray{
+    height: 23.45px;
+    border-radius: 13.617px;
+}
+.report__switching {
+    position: relative;
+    top: 55px;
+}
+.payment__limit {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0564px;
+    line-height: 20px;
+    color: #AEAEAE;
+}
+.bold_line_2colors, .cards__limit {
+    position: relative;
+    bottom: 17px;
+}
+.limit_price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+
+/*Transaction_history*/
+.Transaction_history ul {
+    width: 543px;
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 28px;
+}
+
+.reciver img {
+    width: 10.4px;
+    height: 10.4px;
+    padding: 6px;
+    background: #EFEFEF;
+    border-radius: 6.00038px;
+    margin-top: 10p;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+}
+
+.reciver {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+    position: relative;
+    bottom: 6px;
+}
+.horizontal_line {
+    width: 543.74px;
+    height: 0px;
+    border: 0.5px solid #ECECEC;
+}
+.reciver__zero_sub-title {
+    position: relative;
+    right: 44px;
+}
+.reciver__first_sub-title {
+    margin-left: 52px;
+}
+
+.reciver__second_sub-title {
+    margin-left: 22px;
+}
+
+.reciver__third_sub-title {
+    margin-left: 9px;
+}
+
+.reciver__fourth_sub-title {
+    margin-left: -4px;
+}
+
+.reciver__fifth_sub-title {
+    margin-left: 72px;
+}
+
+.reciver__first_date {
+    position: relative;
+    right: 16px;
+}
+
+.reciver__second_date {
+    position: relative;
+    right: 11px;
+}
+.reciver__third_date {
+    position: relative;
+    right: -4px;
+}
+
+.reciver__fourth_date {
+    position: relative;
+    right: 4px;
+}
+
+.reciver__fifth_date {
+    position: relative;
+    right: 20px;
+}
+.reciver__date_sub-title {
+    position: relative;
+    left: 8px;
+}
+
+/*goals*/
+.goals__blocks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.goal__block {
+    width: 157px;
+    height: 168px;
+}
+.title img {
+    position: relative;
+    top: 9px;
+}
+.goal__block > div {
+    padding: 20px;
+}
+.line__orange {
+    width: 195.35px;
+    height: 9.47px;
+    background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
+    border-radius: 10.7766px;
+}
+
+.line__green {
+    width: 62.12px;
+    height: 9.47px;
+    background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
+    border-radius: 10.7766px;
+}
+
+.line__long_blue {
+    width: 281.33px;
+    height: 9.47px;
+    background: #70A6E8;
+    border-radius: 10.7766px;
+}
+.goals__event {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.1118px;
+    line-height: 25px;
+    color: #404040;
+}
+
+.goals__price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.9789px;
+    line-height: 29px;
+    color: #696969;
+}
+
+.goals__date {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+
+/*Outcome_Statistics*/
+.statistics__stages, .transaction__list_people, .new_trans__image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 65px;
+}
+.statistics__stages img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background: #FFEADA;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+}
+.statictics__lines {
+    width: 367.74px;
+    height: 9.47px;
+    background: #F1F1F1;
+    border-radius: 13.617px;
+}
+.statictics__line_and_shopping {
+    margin: 0px;
+    position: relative;
+    right: 20px;
+}
+.statictics__line_and_shopping p {
+    margin: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+.statistics__stages > p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.9789px;
+    line-height: 29px;
+    color: #696969;
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+}
+
+/*new_trans__image*/
+
+
+.New_transaction {
+    width: 341.51px;
+    height: 183.03px;
+}
+
+.text_place {
+    width: 175.32px;
+    height: 36.52px;
+    background: #FFFFFF;
+    border: 1px solid #197BBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.submit_button {
+    width: 131.59px;
+    height: 36.52px;
+    background: #FFC145;
+    border-radius: 13.617px;
+    border: 0px;
+}
+
+.name {
+    margin-top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #404040;
+    text-align: center;
+}
+
+.sending_transfer {
+    text-align: center;
+}
+.red_sample {
+    position: relative;
+    top: 15px;
+}
+
+
+
+/*grid main_part*/
+
+.first_header__and__menu {
+    grid-area: first_header__and__menu;
+}
+.second_header {
+    grid-area: second_header;
+}
+.Cards {
+    grid-area: Cards;
+}
+.Transaction_history {
+    grid-area: Transaction_history;
+    height: 322px;
+    margin-top: 31px;
+}
+.Goals {
+    grid-area: Goals;
+}
+.Outcome_Statistics {
+    grid-area: Outcome_Statistics;
+}
+.new_trans__image {
+    grid-area: new_trans__image;
+    height: 190px;
+}
+
+.main_blocks {
+    margin: 0 auto;
+    width: 1476.59px;
+    height: 903.5px;
+    background: linear-gradient(121.32deg, #FFFFFF 10.96%, #FFFFFF 72%, #FFFFFF 99.98%);
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 59px;
+    display: grid;
+    grid-template-columns: 300px 600px auto;
+    grid-template-rows: 145px 253px 120px 160px 322px;
+    grid-template-areas: "first_header__and__menu second_header second_header"
+                        "first_header__and__menu Cards Goals"
+                        "first_header__and__menu Cards Outcome_Statistics"
+                        "first_header__and__menu Transaction_history Outcome_Statistics"
+                        "first_header__and__menu Transaction_history new_trans__image";
+}
+
